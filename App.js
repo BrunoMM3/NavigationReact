@@ -18,7 +18,7 @@ const Stack = createStackNavigator();
 
 function One() {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center',backgroundColor:'yellow' }}>
       <Text>ONE</Text>
       
     </View>
@@ -27,14 +27,14 @@ function One() {
 
 function Two() {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center',backgroundColor:'red' }}>
       <Text>TWO</Text>
     </View>
   );
 }
 function Three() {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center',backgroundColor:'aqua' }}>
       <Text>Three</Text>
     </View>
   );
